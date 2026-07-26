@@ -1,0 +1,25 @@
+# config 包初始化文件
+# 导出核心配置供外部使用
+from .settings import (
+    BASE_DIR,
+    DATA_DIR,
+    CACHE_TTL,
+    PASSIVE_TOOL_TIMEOUT,
+    ACTIVE_TOOL_TIMEOUT,
+    MAX_CONCURRENT_PASSIVE_TOOLS,
+    MAX_CONCURRENT_ASSETS,
+    MAX_ITERATIONS,
+    LOG_LEVEL,
+)
+
+__all__ = [
+    "BASE_DIR",
+    "DATA_DIR",
+    "CACHE_TTL",
+    "PASSIVE_TOOL_TIMEOUT",
+    "ACTIVE_TOOL_TIMEOUT",
+    "MAX_CONCURRENT_PASSIVE_TOOLS",
+    "MAX_CONCURRENT_ASSETS",
+    "MAX_ITERATIONS",
+    "LOG_LEVEL",
+]

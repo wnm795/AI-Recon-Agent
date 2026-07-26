@@ -1,0 +1,5 @@
+// 本地 Web 指纹数据库
+// 精准匹配规则：header、response_body、favicon_hash、title、cookie、html 标签等
+{
+  "fingerprints": []
+}
